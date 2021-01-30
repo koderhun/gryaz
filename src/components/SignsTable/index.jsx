@@ -1,5 +1,5 @@
 import React from 'react'
-import { Table, Tag } from 'antd'
+import { Table } from 'antd'
 import { css } from '@emotion/css'
 import { WarningStyled, TextStyled } from './styled'
 

@@ -9,7 +9,7 @@ export const About = () => {
       <ul>
         <li>
           <Img>
-            <img src="/resource/ava1.jpg" alt="" />
+            <img src="./resource/ava1.jpg" alt="" />
           </Img>
           <Content>
             <h2>Кирилл. Эникей</h2>
