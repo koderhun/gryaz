@@ -18,12 +18,10 @@ export const UploadFile = ({ onUpload }) => {
             console.log(info.file, info.fileList)
           }
           if (info.file.status === 'done') {
-            console.info('done', info)
-            console.log('ffff', info.file.response.data)
             onUpload(info.file.response.data)
-            message.success(`${info.file.name} file uploaded successfully`)
+            message.success(`${info.file.name} успешно загружен!`)
           } else if (info.file.status === 'error') {
-            message.error(`${info.file.name} file upload failed.`)
+            message.error(`${info.file.name} ошибка загрузки.`)
           }
         }
       }}
