@@ -1,0 +1,58 @@
+:root {
+  --primary: #ffbe21;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+a {
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+.ant-btn:hover,
+.ant-btn:focus {
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+.ant-btn-primary {
+  background: var(--primary);
+  border-color: var(--primary);
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  background: var(--primary);
+  border-color: var(--primary);
+  opacity: 0.8;
+  color: white;
+}
+
+.ant-tabs-tab {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.ant-tabs-tab:hover,
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: black;
+}
+.ant-tabs-ink-bar {
+  background: black;
+}
+.ant-tabs-top > .ant-tabs-nav::before,
+.ant-tabs-top > div > .ant-tabs-nav::before {
+  display: none;
+}
+
+.ant-table-tbody > tr.ant-table-row-level-1:hover > td {
+  background: unset;
+}
