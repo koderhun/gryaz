@@ -7,4 +7,8 @@ export const AboutStyled = styled.div`
     font-size: 48px;
     line-height: 59px;
   }
+
+  p {
+    font-size: 18px;
+  }
 `
