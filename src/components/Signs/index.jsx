@@ -14,9 +14,6 @@ export const Signs = ({ uploading }) => (
       <TabPane tab="Признаки" key="1">
         <SignsTable uploading={uploading} />
       </TabPane>
-      <TabPane tab="Подробности" key="2">
-        Content of Tab Pane 2
-      </TabPane>
     </Tabs>
   </SignsStyled>
 )

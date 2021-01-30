@@ -11,6 +11,7 @@ export const UploadFile = ({ onUpload }) => {
         name: 'file',
         action: 'https://run.mocky.io/v3/a1b4bdac-2953-4cbc-9d8a-b3c76b1904dc',
         headers: {},
+        maxCount: 1,
         onChange(info) {
           console.log('info', info)
 
